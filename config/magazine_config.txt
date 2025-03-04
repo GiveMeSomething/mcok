@@ -1,0 +1,90 @@
+children_Vietnam_KIDS
+children_Vietnam_Nhi Đồng
+children_Vietnam_Khăn Quàng Đỏ
+children_Vietnam_Thiếu Nhi Dân Tộc
+children_Vietnam_Tạp chí Toán Tuổi Thơ
+children_Vietnam_Họa Mi
+children_Vietnam_Thế Giới Tuổi Thơ
+children_Vietnam_Măng Non
+children_Vietnam_Rùa Vàng
+children_Vietnam_Vườn Hồng
+children_USA_National Geographic Kids
+children_USA_Highlights
+children_USA_Ranger Rick
+children_USA_Sports Illustrated Kids
+children_USA_Ask
+children_USA_Muse
+children_USA_Ladybug
+children_USA_Babybug
+children_USA_Click
+children_USA_Time for Kids
+children_India_Children's World
+children_India_Chandamama
+children_India_Tinkle
+children_India_Champak
+children_India_Magic Pot
+children_India_Wisdom
+children_India_Junior Quest
+children_India_RobinAge
+children_India_Target
+children_India_Dimdima
+teenager_Vietnam_Hoa Học Trò
+teenager_Vietnam_Tuổi Trẻ Online (Youth Section)
+teenager_Vietnam_Mực Tím
+teenager_Vietnam_2! Đẹp
+teenager_Vietnam_Tiếp Thị Gia Đình
+teenager_Vietnam_Sinh Viên Việt Nam
+teenager_Vietnam_Kênh 14
+teenager_Vietnam_Yan News
+teenager_Vietnam_Elle Girl Vietnam
+teenager_Vietnam_Style4U
+teenager_USA_Teen Vogue
+teenager_USA_Seventeen
+teenager_USA_CosmoGirl (defunct but influential)
+teenager_USA_YPulse
+teenager_USA_J-14
+teenager_USA_Tiger Beat
+teenager_USA_Allure
+teenager_USA_Wired
+teenager_USA_Rolling Stone
+teenager_USA_Complex
+teenager_India_Teenage Magazine India
+teenager_India_Youth Incorporated
+teenager_India_Femina
+teenager_India_Filmfare
+teenager_India_Digit
+teenager_India_Auto India
+teenager_India_Overdrive
+teenager_India_Chip
+teenager_India_Stardust
+teenager_India_Gladrags
+adult_Vietnam_Thanh Niên
+adult_Vietnam_Tuổi Trẻ
+adult_Vietnam_Phụ Nữ Việt Nam
+adult_Vietnam_Doanh Nhân Sài Gòn
+adult_Vietnam_Thời báo Kinh tế Sài Gòn
+adult_Vietnam_Elle Vietnam
+adult_Vietnam_Harper's Bazaar Vietnam
+adult_Vietnam_Vogue Vietnam
+adult_Vietnam_Tạp chí Cộng Sản
+adult_Vietnam_Người Lao Động
+adult_USA_Time
+adult_USA_The New Yorker
+adult_USA_The Atlantic
+adult_USA_The Economist
+adult_USA_National Geographic
+adult_USA_Vanity Fair
+adult_USA_Wired
+adult_USA_Forbes
+adult_USA_Bloomberg Businessweek
+adult_USA_Vogue
+adult_India_India Today
+adult_India_Outlook
+adult_India_The Week
+adult_India_Femina
+adult_India_Filmfare
+adult_India_Business India
+adult_India_Frontline
+adult_India_Open
+adult_India_Caravan
+adult_India_Economic and Political Weekly

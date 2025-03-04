@@ -1,0 +1,90 @@
+children_Vietnam_Trạng Tí Phiêu Lưu Ký
+children_Vietnam_Tôi Thấy Hoa Vàng Trên Cỏ Xanh (adapted for children)
+children_Vietnam_Doraemon (Vietnamese dubbed)
+children_Vietnam_Chú Bé Rồng (Vietnamese dubbed)
+children_Vietnam_Cô Bé Người Gỗ
+children_Vietnam_Phượng Khấu (children's adaptation)
+children_Vietnam_Những Chú Chó Cứu Hộ (Vietnamese dubbed)
+children_Vietnam_Kung Fu Panda (Vietnamese dubbed)
+children_Vietnam_Minions (Vietnamese dubbed)
+children_Vietnam_Moana (Vietnamese dubbed)
+children_USA_Toy Story
+children_USA_The Lion King
+children_USA_Frozen
+children_USA_Finding Nemo
+children_USA_Inside Out
+children_USA_The Incredibles
+children_USA_Up
+children_USA_Spider-Man: Into the Spider-Verse
+children_USA_Coco
+children_USA_How to Train Your Dragon
+children_India_Chhota Bheem: Kung Fu Dhamaka
+children_India_Motu Patlu: King of Kings
+children_India_Krishna Aur Kans
+children_India_Bal Ganesh
+children_India_Hanuman
+children_India_Toonpur Ka Superrhero
+children_India_Kochadaiiyaan (animated)
+children_India_Arjun: The Warrior Prince
+children_India_Mighty Raju
+children_India_Return of Hanuman
+teenager_Vietnam_Mắt Biếc
+teenager_Vietnam_Tháng Năm Rực Rỡ
+teenager_Vietnam_Em Và Trịnh
+teenager_Vietnam_Hai Phượng
+teenager_Vietnam_Gái Già Lắm Chiêu
+teenager_Vietnam_Chị Chị Em Em
+teenager_Vietnam_Tiệc Trăng Máu
+teenager_Vietnam_Bố Già
+teenager_Vietnam_Lật Mặt
+teenager_Vietnam_Siêu Lừa Gặp Siêu Lầy
+teenager_USA_The Hunger Games
+teenager_USA_The Fault in Our Stars
+teenager_USA_Divergent
+teenager_USA_Love, Simon
+teenager_USA_To All the Boys I've Loved Before
+teenager_USA_Spider-Man: Homecoming
+teenager_USA_Lady Bird
+teenager_USA_Booksmart
+teenager_USA_Everything, Everything
+teenager_USA_The Perks of Being a Wallflower
+teenager_India_2 States
+teenager_India_Yeh Jawaani Hai Deewani
+teenager_India_Dil Dhadakne Do
+teenager_India_Queen
+teenager_India_Gully Boy
+teenager_India_Dear Zindagi
+teenager_India_Kapoor & Sons
+teenager_India_Student of the Year
+teenager_India_Cocktail
+teenager_India_Band Baaja Baaraat
+adult_Vietnam_Bố Già
+adult_Vietnam_Mắt Biếc
+adult_Vietnam_Hai Phượng
+adult_Vietnam_Tiệc Trăng Máu
+adult_Vietnam_Em Và Trịnh
+adult_Vietnam_Gái Già Lắm Chiêu
+adult_Vietnam_Chị Chị Em Em
+adult_Vietnam_Lật Mặt
+adult_Vietnam_Tháng Năm Rực Rỡ
+adult_Vietnam_Người Vợ Cuối Cùng
+adult_USA_The Godfather
+adult_USA_The Shawshank Redemption
+adult_USA_Pulp Fiction
+adult_USA_The Dark Knight
+adult_USA_Schindler's List
+adult_USA_Forrest Gump
+adult_USA_Inception
+adult_USA_The Social Network
+adult_USA_Parasite
+adult_USA_12 Years a Slave
+adult_India_3 Idiots
+adult_India_PK
+adult_India_Dangal
+adult_India_Andhadhun
+adult_India_Gangs of Wasseypur
+adult_India_Masaan
+adult_India_Article 15
+adult_India_Uri: The Surgical Strike
+adult_India_Bahubali: The Beginning
+adult_India_Bahubali 2: The Conclusion

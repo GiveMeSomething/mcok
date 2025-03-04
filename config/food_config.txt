@@ -1,0 +1,90 @@
+children_Vietnam_Phở gà
+children_Vietnam_Cháo gà
+children_Vietnam_Bánh cuốn trứng
+children_Vietnam_Bánh mì trứng
+children_Vietnam_Súp cua
+children_Vietnam_Xôi ngọt
+children_Vietnam_Chè đậu xanh
+children_Vietnam_Sinh tố xoài
+children_Vietnam_Bánh flan
+children_Vietnam_Nem rán mini
+children_USA_Mac and cheese
+children_USA_Chicken nuggets
+children_USA_Peanut butter and jelly sandwich
+children_USA_Pancakes
+children_USA_French toast
+children_USA_Pizza (cheese or pepperoni)
+children_USA_Hot dogs
+children_USA_Spaghetti and meatballs
+children_USA_Grilled cheese sandwich
+children_USA_Apple slices with peanut butter
+children_India_Idli with sambar
+children_India_Dosa (plain or masala)
+children_India_Upma
+children_India_Poha
+children_India_Paratha with yogurt
+children_India_Vegetable pulao
+children_India_Fruit chaat
+children_India_Paneer tikka masala (mild)
+children_India_Aloo gobi (mild)
+children_India_Kheer
+teenager_Vietnam_Bánh mì thịt nướng
+teenager_Vietnam_Gỏi cuốn
+teenager_Vietnam_Cơm tấm
+teenager_Vietnam_Bún bò Huế
+teenager_Vietnam_Phở bò
+teenager_Vietnam_Bánh xèo
+teenager_Vietnam_Nem lụi
+teenager_Vietnam_Trà sữa trân châu
+teenager_Vietnam_Bánh tráng trộn
+teenager_Vietnam_Lẩu thái
+teenager_USA_Burgers
+teenager_USA_Tacos
+teenager_USA_Chicken wings
+teenager_USA_Fried chicken
+teenager_USA_Sushi (California rolls)
+teenager_USA_Ramen
+teenager_USA_Pasta carbonara
+teenager_USA_Steak fries
+teenager_USA_Burritos
+teenager_USA_Smoothies
+teenager_India_Butter chicken
+teenager_India_Chole bhature
+teenager_India_Biryani (chicken or vegetable)
+teenager_India_Momos
+teenager_India_Pav bhaji
+teenager_India_Tandoori chicken
+teenager_India_Rogan josh
+teenager_India_Vegetable manchurian
+teenager_India_Falooda
+teenager_India_Jalebi
+adult_Vietnam_Phở bò
+adult_Vietnam_Bún chả
+adult_Vietnam_Cao lầu
+adult_Vietnam_Gỏi cá trích
+adult_Vietnam_Bánh khọt
+adult_Vietnam_Chả cá Lã Vọng
+adult_Vietnam_Lẩu cá diêu hồng
+adult_Vietnam_Cơm niêu
+adult_Vietnam_Rượu cần
+adult_Vietnam_Cà phê trứng
+adult_USA_Steak (medium rare)
+adult_USA_Lobster
+adult_USA_Salmon (grilled)
+adult_USA_Roast chicken
+adult_USA_Clam chowder
+adult_USA_Gumbo
+adult_USA_Caesar salad
+adult_USA_Wine and cheese platter
+adult_USA_Craft beer and burgers
+adult_USA_Fine dining desserts (crème brûlée)
+adult_India_Hyderabadi biryani
+adult_India_Dal makhani
+adult_India_Rogan josh
+adult_India_Tandoori fish
+adult_India_Malai kofta
+adult_India_Goan fish curry
+adult_India_Rajasthani laal maas
+adult_India_Vindaloo
+adult_India_Masala dosa
+adult_India_Gulab jamun

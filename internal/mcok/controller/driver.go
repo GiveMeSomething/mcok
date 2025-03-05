@@ -25,7 +25,7 @@ func CreateOutputDirIfNotExist(outputPath string) error {
 	return nil
 }
 
-func WriteOutput(outputPath string, round int64, generator func() string) error {
+func WriteOutput(outputPath string, dataCount int64, generator func() string) error {
 	lock := sync.Mutex{}
 
 	group, _ := errgroup.WithContext(context.Background())
@@ -40,13 +40,12 @@ func WriteOutput(outputPath string, round int64, generator func() string) error 
 		return err
 	}
 
-	maxConcurrent := 200
-	var bufferSize int64 = 100
+	maxConcurrent := 100
+	var bufferSize int64 = min(100, dataCount)
 	goroutineQueue := make(chan int, maxConcurrent)
 
-	fmt.Printf("Starting %d goroutines...\n\n", max(round/bufferSize, 1))
 	bar := progressbar.NewOptions(
-		int(round),
+		int(dataCount),
 		progressbar.OptionSetWidth(40),
 		progressbar.OptionShowTotalBytes(true),
 		progressbar.OptionThrottle(65*time.Millisecond),
@@ -56,9 +55,17 @@ func WriteOutput(outputPath string, round int64, generator func() string) error 
 		}),
 	)
 
-	for range max(round/bufferSize, 1) {
+	round := (dataCount / bufferSize) + 1
+	fmt.Printf("Starting %d goroutines...\n\n", round)
+
+	for i := range round {
+		roundBuffer := bufferSize
+		if i == round-1 {
+			roundBuffer = dataCount % bufferSize
+		}
+
 		goroutineQueue <- 1
-		bar.Add(int(bufferSize))
+		bar.Add(int(roundBuffer))
 
 		group.Go(func() error {
 			// Consume from queue for other to continue when done
@@ -68,7 +75,7 @@ func WriteOutput(outputPath string, round int64, generator func() string) error 
 
 			var buffer bytes.Buffer
 
-			for range bufferSize {
+			for range roundBuffer {
 				fmt.Fprintln(&buffer, generator())
 			}
 

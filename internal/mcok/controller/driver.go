@@ -7,7 +7,9 @@ import (
 	"os"
 	"path/filepath"
 	"sync"
+	"time"
 
+	"github.com/schollz/progressbar/v3"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -42,12 +44,24 @@ func WriteOutput(outputPath string, round int64, generator func() string) error 
 	var bufferSize int64 = 100
 	goroutineQueue := make(chan int, maxConcurrent)
 
-	fmt.Printf("Starting %d goroutines...\n", max(round/bufferSize, 1))
+	fmt.Printf("Starting %d goroutines...\n\n", max(round/bufferSize, 1))
+	bar := progressbar.NewOptions(
+		int(round),
+		progressbar.OptionSetWidth(40),
+		progressbar.OptionShowTotalBytes(true),
+		progressbar.OptionThrottle(65*time.Millisecond),
+		progressbar.OptionShowCount(),
+		progressbar.OptionOnCompletion(func() {
+			fmt.Fprint(os.Stderr, "\n\n")
+		}),
+	)
 
 	for range max(round/bufferSize, 1) {
 		goroutineQueue <- 1
+		bar.Add(int(bufferSize))
 
 		group.Go(func() error {
+			// Consume from queue for other to continue when done
 			defer func() {
 				<-goroutineQueue
 			}()

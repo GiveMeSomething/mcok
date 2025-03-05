@@ -36,7 +36,7 @@ var MockCommand = &cobra.Command{
 			return
 		}
 
-		fmt.Printf("Generation finished: %s\n", time.Since(start))
+		fmt.Printf("Generation finished: %s\n", time.Since(start).Truncate(time.Millisecond))
 	},
 }
 

@@ -1,20 +1,29 @@
-package mcok
+package controller
 
 import (
 	"bytes"
 	"context"
 	"fmt"
 	"os"
+	"path/filepath"
 	"sync"
 
 	"golang.org/x/sync/errgroup"
 )
 
-// Idea:
-// Prepare a buffer to pre-construct a small part of the result
-// When done, try to acquire the lock and write to file
+func CreateOutputDirIfNotExist(outputPath string) error {
+	dirPath := filepath.Dir(outputPath)
+	if _, err := os.Stat(dirPath); os.IsNotExist(err) {
+		// https://stackoverflow.com/questions/14249467/os-mkdir-and-os-mkdirall-permissions
+		err = os.MkdirAll(dirPath, 0755)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
 
-func writeOutput(outputPath string, round int64) error {
+func WriteOutput(outputPath string, round int64, generator func() string) error {
 	lock := sync.Mutex{}
 
 	group, _ := errgroup.WithContext(context.Background())
@@ -46,7 +55,7 @@ func writeOutput(outputPath string, round int64) error {
 			var buffer bytes.Buffer
 
 			for range bufferSize {
-				fmt.Fprintln(&buffer, randomPassenger().ToString())
+				fmt.Fprintln(&buffer, generator())
 			}
 
 			lock.Lock()
